@@ -217,10 +217,14 @@ template {
 .note:not(.no-icon)::before,
 .search-dialog hr:before {
   display: inline-block;
-  font-weight: 600;
-  font-family: 'Font Awesome 7 Free', 'Font Awesome 6 Free';
-  text-rendering: auto;
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
 }
 .cardHover,
 .type-404 .error-content,
